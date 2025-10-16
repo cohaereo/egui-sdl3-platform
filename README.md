@@ -37,4 +37,4 @@ let mut event_pump = sdl.event_pump().unwrap();
     swapchain.present(0, dxgi::PresentFlags::empty());
 }
 ```
-See https://github.com/cohaereo/egui-d3d11-rs/blob/main/examples/demo.rs for a full demo using d3d11
+See https://github.com/cohaereo/egui-d3d11-renderer/blob/main/examples/demo.rs for a full demo using [d3d11](https://crates.io/crates/d3d11)
